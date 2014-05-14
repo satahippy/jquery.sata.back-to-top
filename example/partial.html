@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sata Back To Top</title>
+
+		<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+		<script type="text/javascript" src="../src/jquery.sata.back-to-top.js"></script>
+
+		<script type="text/javascript">
+			$(function () {
+				$('.site-backtotop').sataBackToTop({
+					$target: $('.partial')
+				});
+			});
+		</script>
+
+		<style type="text/css">
+			.site-backtotop {
+				position: absolute;
+				display: none;
+				right: 40px;
+				bottom: 40px;
+				background-color: darkcyan;
+				padding: 20px;
+				cursor: pointer;
+			}
+			.wrapper {
+				height: 300px;
+				position: relative;
+			}
+			.partial {
+				height: 100%;
+				overflow: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<p>
+			Here is some content.
+		</p>
+		<div class="wrapper">
+			<div class="site-backtotop">up</div>
+			<div class="partial">
+				Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.<br/>Here is a lot of text.
+			</div>
+		</div>
+		<p>
+			Here is some content.
+		</p>
+	</body>
+</html>

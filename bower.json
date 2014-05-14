@@ -1,0 +1,12 @@
+{
+	"name": "jquery.sata.back-to-top",
+	"version": "0.1.0",
+	"authors": [
+		"satahippy <satahippy@gmail.com>"
+	],
+	"license": "MIT",
+	"main": "src/jquery.sata.back-to-top.js",
+	"dependencies": {
+		"jquery": "^1.9"
+	}
+}
